@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyServer", "DZ\MyServer.csproj", "{99A7294D-A705-4011-A3A8-761B05AEEAFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyClient", "MyClient\MyClient.csproj", "{A5F7736D-D373-47F9-BBC9-78E12F8C3961}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyClient", "ProxyServer\ProxyClient.csproj", "{6E59BFFD-5C9C-483B-BFD3-682AB2313E2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99A7294D-A705-4011-A3A8-761B05AEEAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A7294D-A705-4011-A3A8-761B05AEEAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A7294D-A705-4011-A3A8-761B05AEEAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A7294D-A705-4011-A3A8-761B05AEEAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F7736D-D373-47F9-BBC9-78E12F8C3961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F7736D-D373-47F9-BBC9-78E12F8C3961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F7736D-D373-47F9-BBC9-78E12F8C3961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F7736D-D373-47F9-BBC9-78E12F8C3961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E59BFFD-5C9C-483B-BFD3-682AB2313E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E59BFFD-5C9C-483B-BFD3-682AB2313E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E59BFFD-5C9C-483B-BFD3-682AB2313E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E59BFFD-5C9C-483B-BFD3-682AB2313E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
