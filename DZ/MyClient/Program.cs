@@ -22,7 +22,7 @@ namespace MyClient
         {
             ChannelFactory<IMyDiskInfo> factory = new ChannelFactory<IMyDiskInfo>(
                     new BasicHttpBinding(),
-                    new EndpointAddress("http://localhost/MyDiskInfo"));
+                    new EndpointAddress("http://localhost/MyDiskInfo/ep2"));
             IMyDiskInfo channel = factory.CreateChannel();
 
             string free = channel.FreeSpace("D:");
